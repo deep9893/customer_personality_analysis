@@ -1,0 +1,12 @@
+[2023-06-04 08:50:16,231] werkzeug - WARNING -  * Debugger is active!
+[2023-06-04 08:50:16,238] werkzeug - INFO -  * Debugger PIN: 133-755-326
+[2023-06-04 08:51:10,817] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,818] root - INFO - We are thesting our logging file
+[2023-06-04 08:51:10,820] werkzeug - INFO - 127.0.0.1 - - [04/Jun/2023 08:51:10] "GET / HTTP/1.1" 200 -
+[2023-06-04 08:51:11,398] werkzeug - INFO - 127.0.0.1 - - [04/Jun/2023 08:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
