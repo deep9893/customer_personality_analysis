@@ -3,7 +3,9 @@ import sys
 from src.logger.logs import logging
 from src.utils.utils import read_yaml_file
 from src.exception import AppException
-from src.entity.config_entity import DataIngestionConfig #DataValidationConfig
+from src.entity.config_entity import DataIngestionConfig 
+from src.entity.config_entity import DataValidationConfig
+
 #from src.entity.config_entity import , DataTransformationConfig, ModelTrainerConfig
 from src.constant import *
 
@@ -36,32 +38,31 @@ class AppConfiguration:
 
         except Exception as e:
             raise AppException(e, sys) from e
-
-
-    # def get_data_validation_config(self) -> DataValidationConfig:
-    #     try:
-    #         data_validation_config = self.configs_info['data_validation_config']
-    #         data_ingestion_config = self.configs_info['data_ingestion_config']
-    #         dataset_dir = data_ingestion_config['dataset_dir']
-    #         artifacts_dir = self.configs_info['artifacts_config']['artifacts_dir']
-    #         marketing_campaign_csv_file = data_validation_config['marketing_campaign_csv_file']
+        
+    def get_data_validation_config(self) -> DataValidationConfig:
+        try:
+            data_validation_config = self.configs_info['data_validation_config']
+            data_ingestion_config = self.configs_info['data_ingestion_config']
+            dataset_dir = data_ingestion_config['dataset_dir']
+            artifacts_dir = self.configs_info['artifacts_config']['artifacts_dir']
+            marketing_campaign_csv_file = data_validation_config['marketing_campaign_csv_file']
             
-    #         marketing_campaign_csv_file_dir = os.path.join(artifacts_dir, dataset_dir, data_ingestion_config['ingested_dir'], marketing_campaign_csv_file)
+            marketing_campaign_csv_file_dir = os.path.join(artifacts_dir, dataset_dir, data_ingestion_config['ingested_dir'], marketing_campaign_csv_file)
             
-    #         clean_data_path = os.path.join(artifacts_dir, dataset_dir, data_validation_config['clean_data_dir'])
-    #         serialized_objects_dir = os.path.join(artifacts_dir, data_validation_config['serialized_objects_dir'])
+            clean_data_path = os.path.join(artifacts_dir, dataset_dir, data_validation_config['clean_data_dir'])
+            serialized_objects_dir = os.path.join(artifacts_dir, data_validation_config['serialized_objects_dir'])
 
-    #         response = DataValidationConfig(
-    #             clean_data_dir = clean_data_path,
-    #             marketing_campaign_csv_file = marketing_campaign_csv_file_dir,
-    #             serialized_objects_dir = serialized_objects_dir
-    #         )
+            response = DataValidationConfig(
+                clean_data_dir = clean_data_path,
+                marketing_campaign_csv_file = marketing_campaign_csv_file_dir,
+                serialized_objects_dir = serialized_objects_dir
+            )
 
-    #         logging.info(f"Data Validation Config: {response}")
-    #         return response
+            logging.info(f"Data Validation Config: {response}")
+            return response
 
-    #     except Exception as e:
-    #         raise AppException(e, sys) from e
+        except Exception as e:
+            raise AppException(e, sys) from e
 
 
     # def get_data_transformation_config(self) -> DataTransformationConfig:

@@ -1,0 +1,8 @@
+[2023-06-24 23:52:24,738] root - INFO - ====================Data Ingestion log started.==================== 
+[2023-06-24 23:52:24,738] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-06-24 23:52:24,738] root - INFO - Downloading data from https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-06-24 23:52:25,137] root - INFO - Downloaded data from https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-06-24 23:52:25,166] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-06-24 23:52:25,166] root - INFO - ====================Data Ingestion log completed.==================== 
+
+

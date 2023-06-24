@@ -46,7 +46,7 @@ class DataValidation:
             })
 
             #Converting to datetime
-            df.Dt_Customer = pd.to_datetime(df.Dt_Customer)
+            df.Dt_Customer = pd.to_datetime(df.Dt_Customer,format="%d-%m-%Y")
 
             
             # MonthEnrollement
