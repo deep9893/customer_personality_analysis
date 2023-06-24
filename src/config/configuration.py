@@ -3,8 +3,8 @@ import sys
 from src.logger.logs import logging
 from src.utils.utils import read_yaml_file
 from src.exception import AppException
-from src.entity.config_entity import DataIngestionConfig
-#from src.entity.config_entity import DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
+from src.entity.config_entity import DataIngestionConfig #DataValidationConfig
+#from src.entity.config_entity import , DataTransformationConfig, ModelTrainerConfig
 from src.constant import *
 
 

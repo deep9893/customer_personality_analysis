@@ -22,4 +22,13 @@ pip install -r requirements.txt
 6. component folder -> Data ingestion file
 7. Run demo.py
 
+# Data Validation
+1. Write code under config.yaml
+2. entity file (config_entity) file
+3. config folder -> configuration file
+4. component folder -> Data Validation file
+5. Run demo.py
+
+
+
 

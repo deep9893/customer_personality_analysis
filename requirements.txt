@@ -2,6 +2,8 @@ pandas
 numpy
 sklearn
 matplotlib
+notebook
+seaborn
 flask
-pyyaml
+PyYAML
 -e .
