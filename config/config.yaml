@@ -13,9 +13,9 @@ data_validation_config:
   serialized_objects_dir: serialized_objects
   marketing_campaign_csv_file: marketing_campaign.csv
 
-# data_transformation_config:
-#   transformed_data_dir: transformed_data
+data_transformation_config:
+  transformed_data_dir: transformed_data
 
-# model_trainer_config:
-#   trained_model_dir: trained_model
-#   trained_model_name: model.pkl
+model_trainer_config:
+  trained_model_dir: trained_model
+  trained_model_name: model.pkl

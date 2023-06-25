@@ -1,0 +1,6 @@
+[2023-06-25 09:10:19,832] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-06-25 09:10:19,832] root - INFO - ====================Data Transformation log started.==================== 
+[2023-06-25 09:10:19,894] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-06-25 09:10:19,894] root - INFO - ====================Data Transformation log completed.==================== 
+
+
