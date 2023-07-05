@@ -30,5 +30,11 @@ pip install -r requirements.txt
 5. Run demo.py
 
 
+# clone the git repo
+1- create virtual environment
+2- pip install requirements.txt
+3- run main.py
+4- open localhost :5000 to see the web deployment
+
 
 
