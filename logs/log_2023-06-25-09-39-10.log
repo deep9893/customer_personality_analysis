@@ -1,6 +1,0 @@
-[2023-06-25 09:39:15,065] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
-[2023-06-25 09:39:15,065] root - INFO - ====================Model Trainer log started.==================== 
-[2023-06-25 09:39:21,485] root - INFO - Saving final model to artifacts\trained_model\model.pkl
-[2023-06-25 09:39:21,485] root - INFO - ====================Model Trainer log completed.==================== 
-
-

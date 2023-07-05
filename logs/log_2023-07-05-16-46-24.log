@@ -1,0 +1,30 @@
+[2023-07-05 16:46:25,753] werkzeug - WARNING -  * Debugger is active!
+[2023-07-05 16:46:25,758] werkzeug - INFO -  * Debugger PIN: 133-755-326
+[2023-07-05 16:46:58,879] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:46:58] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:47:01,213] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:47:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-07-05 16:47:23,395] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 16:47:23,450] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:47:23] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 16:50:14,856] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:50:14] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:50:14,902] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:50:14] "[33mGET /your-image-url.jpg HTTP/1.1[0m" 404 -
+[2023-07-05 16:53:24,823] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:53:24] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:53:24,898] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:53:24] "[33mGET /templates/dataset-cover.png HTTP/1.1[0m" 404 -
+[2023-07-05 16:53:25,791] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:53:25] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:53:26,098] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:53:26] "[33mGET /templates/dataset-cover.png HTTP/1.1[0m" 404 -
+[2023-07-05 16:58:24,669] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:58:24] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:58:24,672] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:58:24] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:59:37,759] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:59:37] "GET / HTTP/1.1" 200 -
+[2023-07-05 17:04:50,530] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:04:50] "GET / HTTP/1.1" 200 -
+[2023-07-05 17:06:19,729] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:06:19,740] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:06:19] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 17:07:30,242] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:07:30,274] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:07:30] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 17:07:44,614] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:07:44] "GET / HTTP/1.1" 200 -
+[2023-07-05 17:08:39,610] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:08:39,612] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:08:39] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 17:17:00,016] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:17:00,016] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:17:00] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 17:17:59,723] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:17:59] "GET / HTTP/1.1" 200 -
+[2023-07-05 17:18:16,711] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:18:16,744] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:18:16] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 17:18:29,561] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 17:18:29,570] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 17:18:29] "POST /predict HTTP/1.1" 200 -

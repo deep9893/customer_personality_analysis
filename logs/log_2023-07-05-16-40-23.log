@@ -1,0 +1,6 @@
+[2023-07-05 16:40:24,846] werkzeug - WARNING -  * Debugger is active!
+[2023-07-05 16:40:24,855] werkzeug - INFO -  * Debugger PIN: 133-755-326
+[2023-07-05 16:40:31,024] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:40:31] "GET / HTTP/1.1" 200 -
+[2023-07-05 16:40:52,832] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-07-05 16:40:52,932] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2023 16:40:52] "POST /predict HTTP/1.1" 200 -
+[2023-07-05 16:46:13,828] werkzeug - INFO -  * Detected change in 'd:\\study\\ml_pipeline\\customer_personality\\main.py', reloading

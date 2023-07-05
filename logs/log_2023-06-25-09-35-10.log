@@ -1,1 +1,0 @@
-[2023-06-25 09:35:30,485] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')

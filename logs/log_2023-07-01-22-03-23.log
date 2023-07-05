@@ -1,0 +1,28 @@
+[2023-07-01 22:03:25,577] root - INFO - ====================Data Ingestion log started.==================== 
+[2023-07-01 22:03:25,577] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-07-01 22:03:25,577] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-07-01 22:03:25,577] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-07-01 22:03:25,577] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2023-07-01 22:03:25,577] root - INFO - Downloading data from https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-07-01 22:03:27,031] root - INFO - Downloaded data from https://github.com/deep9893/customer_analysis/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-07-01 22:03:27,047] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-07-01 22:03:27,062] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2023-07-01 22:03:27,062] root - INFO - ====================Data Validation log started.==================== 
+[2023-07-01 22:03:27,094] root - INFO -  Shape of the data file: (2240, 29)
+[2023-07-01 22:03:27,110] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-07-01 22:03:27,141] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-07-01 22:03:27,141] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2023-07-01 22:03:27,141] root - INFO - ====================Data Transformation log started.==================== 
+[2023-07-01 22:03:27,188] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-07-01 22:03:27,188] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2023-07-01 22:03:27,188] root - INFO - ====================Model Trainer log started.==================== 
+[2023-07-01 22:03:31,707] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2023-07-01 22:03:31,707] root - INFO - ====================Model Trainer log completed.==================== 
+
+

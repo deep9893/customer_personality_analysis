@@ -1,0 +1,3 @@
+[2023-07-05 16:36:49,231] werkzeug - WARNING -  * Debugger is active!
+[2023-07-05 16:36:49,232] werkzeug - INFO -  * Debugger PIN: 133-755-326
+[2023-07-05 16:38:02,124] werkzeug - INFO -  * Detected change in 'd:\\study\\ml_pipeline\\customer_personality\\src\\config\\configuration.py', reloading
